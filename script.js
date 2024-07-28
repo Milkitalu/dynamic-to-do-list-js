@@ -1,4 +1,4 @@
-addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
     const addButton = document.getElementById("AddTask");
     const taskInput = document.getElementById("task-input");
     const taskList = document.getElementById("task-list");
@@ -27,6 +27,6 @@ addEventListener("DOMContentLoaded", (event) => {
                 }
             });
         }
-    addEventListener("DOMContentLoaded", addTask);
+    document.addEventListener("DOMContentLoaded", addTask);
 
 });
